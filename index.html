@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travsionate - Travel Agency Indonesia Terpercaya</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous"/>
+
+</head>
+<body>
+    
+    <div class="popup-screen">
+        <div class="pop-box">
+            <i class="fas fa-star close-btn"></i>
+            <h2>TRAVSIONATE</h2>
+            <p>Hai Selamat Datang di Website travel Agency <span>Travsionate</span>. Website Ini dibuat Oleh Najwa Zahratul, Muhammad Satrio, Sahat Parulian dan Yessi Tiyastanti.</p>
+            <a href="#home" class="btn-open">
+                <i class="fas fa-plane" style="line-height: 20px;">Tekan <br> Disini (:</i></br>
+            </a>
+        </div>
+    </div>
+
+
+
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="https://www.holidify.com/places/goa/" class="logo" style="text-decoration: none;">&nbsp;&nbsp; <span><b>T</b></span>RAVSIONATE</a>
+
+    <nav class="navbar">
+        <a href="#home" style="text-decoration: none;"><b>HOME</b></a>
+        <!--<a href="#book"><b>BOOK</b></a>-->
+        <a href="#packages"><b>PACKAGES</b></a>
+        <a href="#services"><b>SERVICES</b></a>
+        <a href="#gallery"><b>GALLERY</b></a>
+        <a href="#contact"><b>CONTACT</b></a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Cari disini..">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  starts-->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="Email">
+        <input type="password" class="box" placeholder="password">
+        <button type="submit" value="login now" class="btn">Login</button>
+        <label for="remember">remember me</label>
+        &nbsp;&nbsp;<input type="checkbox" id="remember">
+        <br>
+        <div class="row">
+            <a href="#" class="fb btn" style="background-color: blue; border-radius: 20px 20px 20px 20px;">
+                <i class="fa2 fa-brands fa-facebook-f"></i>Login With Facebok
+            </a>
+            <a href="#" class="google btn" style="background-color: red; border-radius: 20px 20px 20px 20px;">
+                <i class="fa1 fa-brands fa-google-plus-g"></i>Login With Gmail
+            </a>
+            <a href="#" class="twitter btn" style="background-color:rgb(39, 204, 204); border-radius: 20px 20px 20px 20px;">
+                <i class="fa1 fa-brands fa-twitter"></i> Login With Twitter
+            </a>
+        </div>
+        <p>forget password ? <a href="#">&nbsp;click here</a></p>
+        <br>
+        <p>don't have an account ? <a href="#">&nbsp;register now</a></p>
+    </form>
+
+</div>
+
+<!-- login form container ends-->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Dream It Visit It</h3>
+        <!--<p>discover new places with us, adventure awaits</p>-->
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/trav7.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<!-- <section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/1.jpg" alt="">
+        </div>
+
+        <form>
+            <div class="inputBox">
+                <h3>Enter Place Name</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>Number of Guests</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>Arrival Date</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Leaving Date</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section> -->
+
+<!-- book section ends --> 
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/trav4.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Bali </h3>
+                <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>-->
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> Rp 2.500.000 <span>Rp 3.000.000</span> </div>
+                <a href="https://api.whatsapp.com/send?phone=6281572566055&text=Hallo%20Travsionate%20Agency%20Saya%20tertarik%20untuk%20membeli%20produk%20paket%20trip%20ke%20Bali%20segera." class="btn">Pesan Sekarang</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/trav3.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Yogyakarta </h3>
+                <!--<p></p>-->
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> Rp 200.000/Mobil <span>Rp 500.000</span> </div>
+                <a href="https://api.whatsapp.com/send?phone=6281572566055&text=Hallo%20Travsionate%20Agency%20Saya%20tertarik%20untuk%20membeli%20produk%20paket%20trip%20ke%20Yogyakarta%20segera." class="btn">Pesan Sekarang</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/trav5.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Belitung</h3>
+                <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p> -->
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> Rp 1.900.000 <span>Rp 2.000.000</span> </div>
+                <a href="https://api.whatsapp.com/send?phone=6281572566055&text=Hallo%20Travsionate%20Agency%20Saya%20tertarik%20untuk%20membeli%20produk%20paket%20trip%20ke%20Belitung%20segera." class="btn">pesan sekarang</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/trav6.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Laboan Bajo </h3>
+                <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p> -->
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> Rp 1.350.000/Trip <span>Rp 1.800.000</span> </div>
+                <a href="https://api.whatsapp.com/send?phone=6281572566055&text=Hallo%20Travsionate%20Agency%20Saya%20tertarik%20untuk%20membeli%20produk%20paket%20trip%20ke%20Labuan%20Bajo%20segera." class="btn">pesan sekarang</a>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Hotel Mewah & Terjangkau</h3>
+            <p>Agency kami bekerja sama dengan tempat penginapan untuk beristirahat seperti hotel yang telah memenuhi standar pariwisata di Indonesia semenjak 2020</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Makanan & Minuman</h3>
+            <p>Setiap makanan dan minuman yang kami hidangkan dan berikan mengandung vitamin, serat dan protein bagi orang yang membeli paket liburan atau trip kami.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Keamanan dan Keselamatan</h3>
+            <p>Tour guide yang kami sediakan tentu saja sudah memiliki keahlian serta skill yang dapat menjaga setiap para peserta tour yang hendak menikmati destinasti liburan.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Paket Destinasi</h3>
+            <p>Agency kami menyediakan paket destinasi wisata yang telah dipercaya banyak orang dan sektor pemerintahan setempat sehingga tidak perlu khawatir dan percayakan kepada kami.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Agency Pesawat</h3>
+            <p>Kami tidak hanya menjual paket destinasi wisata, melainkan tiket travel dan pesawat kami siap urus hingga hari keberangkatan tiba untuk melakukan take off di bandara setempat</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Kami telah memiliki tour guide yang handal sserta jam terbang yang dapat menjaga anda agar selamat dari keberangkatan hingga kepulangan destinasi wisata yang akan dituju nantinya.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/trav9.jpg" alt="">
+            <div class="content">
+                <h3>Ship</h3>
+                <br>
+                <p>have a comfortable, beautiful and suitable place to feel the honeymoon with your partner</p>
+               <br>
+                <a href="https://toko.ly/travshionatteagency/home" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/trav11.jpg" alt="">
+            <div class="content">
+                <h3>Pirate Ship</h3>
+                <br>
+                <p>Feel the sensation of having dinner with your partner on an Indonesian pirate ship</p>
+                <a href="https://toko.ly/travshionatteagency/home" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/trav12.jpg" alt="">
+            <div class="content">
+                <h3>Temple</h3>
+                <br>
+                <p>see and feel the many cultures that exist in Indonesia</p>
+                <a href="https://toko.ly/travshionatteagency/home" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/trav13.jpg" alt="">
+            <div class="content">
+                <h3>greatest place</h3>
+                <br>
+                <p>A suitable place to enjoy the creation of God Almighty and feel the fresh sea air</p>
+                <a href="https://toko.ly/travshionatteagency/homel" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/trav14.jpg" alt="">
+            <div class="content">
+                <h3>beautiful place</h3>
+                <br>
+                <p>A suitable place to enjoy the cool cold air on the beach and feel life without any burdens</p>
+                <a href="https://toko.ly/travshionatteagency/home" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/trav15.jpg" alt="">
+            <div class="content">
+                <h3>ship place</h3>
+                <br>
+                <p>A great place to watch the sunset and feel the healthy air in the afternoon</p>
+                <a href="https://toko.ly/travshionatteagency/home" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/trav16.jpg" alt="">
+            <div class="content">
+                <h3>amazing place</h3>
+                <br>
+                <p>Beautiful car a comfortable place and has a beautiful view to take photos with your partner</p>
+                <a href="https://toko.ly/travshionatteagency/home" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/trav17.jpg" alt="">
+            <div class="content">
+                <h3>Beautiful Beach</h3>
+                <br>
+                <p>A suitable place to feel the freshness of the sea water which is still clear and without being damaged by humans</p>
+                <a href="https://toko.ly/travshionatteagency/home" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/trav19.jpg" alt="">
+            <div class="content">
+                <h3>Goa International Airport</h3>
+                <br>
+                <p>The place where Indonesian heroes study in this city, namely Surabaya, with lots of legends and mystique left behind</p>
+                <a href="https://toko.ly/travshionatteagency/home" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form name="travsionate-contact-form">
+            <div class="inputBox">
+                <input type="text" placeholder="Enter Your Name" name="name">
+                <input type="email" placeholder="Enter Your Email" name="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Enter Your No Handphone" name="handphone">
+                <input type="text" placeholder="Subject ..." name="subject">
+            </div>
+            <textarea placeholder="Write Your Message ..." name="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn btn-kirim" value="send message">
+            <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+        </form>
+        <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+            <strong>Terimakasih telah mengirim pesan (: </strong> Pesan Anda sudah kami terima
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- goa video section starts-->
+
+<video width="100%" height="auto" controls>
+    <source src="images/trav8.MOV">
+  </video> -->
+
+<!--- goa video section ends-->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box" style="margin-left: 0%;">
+            <h3>about us</h3>
+            <p>Travsionate Agency merupakan website travel yang dibuat oleh Sahat Parulian (2001345), <br>Yessi Tiyastanti (2001717), Muhammad Satrio (2003252), dan Najwa Zahratul (2004359)</br>
+               <!-- <br>Yessi Tiyastanti(2001717)</br>
+                <br>Muhammad Satrio (2003252)</br>
+                <br>Najwa Zahratul (2004359)</br> -->
+            </p>
+        </div>
+        <div class="box">
+            <h3> locations</h3>
+            <a href="https://toko.ly/travshionatteagency/home">Travsionate</a>
+            <a href="https://toko.ly/travshionatteagency/products/6082882/pirate-dinner-cruise-bali">Bali</a>
+            <a href="https://toko.ly/travshionatteagency/products/6082892/sailing-labuan-bajo-regular-boat">Labuan Bajo</a>
+            <a href="https://www.instagram.com/p/CQodecyrz49/">Yogyakarta</a>
+            <a href="https://www.instagram.com/p/CP9Yxc3tc1z/">Belitung</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <!--<a href="#">book</a>-->
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/arumiphinisi/posts/selesai-trip-3d2n-bersama-arumiphinisijangan-kapok-yah-kak-travsionateagency-kal/186805166890354/">facebook</a>
+            <a href="https://www.instagram.com/travsionate.agency/?hl=en">instagram</a>
+            <a href="https://shopee.co.id/travsionate.agen?categoryId=100642&itemId=14043615407">shopee</a>
+            <a href="https://www.tiktok.com/@travsionate.agency">Tiktok</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> Copyright &copy 2022 by <span> Travsionate Agency </span> | all rights reserved! </h1>
+
+</section>
+
+<!-- Scrool top button-->
+<a href="#" class="gotop">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script type="text/javascript">
+    //pop up /
+    const popupScreen = document.querySelector(".popup-screen");
+    const popupBox = document.querySelector(".pop-box");
+    const closeBtn = document.querySelector(".btn-open");
+    
+
+    window.addEventListener("load", () => {
+        setTimeout(() => {
+            popupScreen.classList.add("active");
+        }, 200);
+    });
+
+
+    closeBtn.addEventListener("click", () => {
+      popupScreen.classList.remove("active"); //Close the popup screen on click the close button.
+    });
+
+ //ubah warna//
+ const chk = document.getElementById('chk');
+
+chk.addEventListener('change', () => {
+	document.body.classList.toggle('dark');
+});
+
+chk.addEventListener('change', () => {
+	document.body.classList.toggle('p');
+});    
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyI8Un8QlRe4QFNF2tJGw486QmcjCKYLTDPHFMbXkTqkKfaNmhJuupWnEwVWaIg2oDM/exec'
+    const form = document.forms['travsionate-contact-form']
+    const btnKirim =document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+    const myAlert = document.querySelector('.my-alert');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      // click buttom submit
+      //show loading submit, hide button submit
+      btnLoading.classList.toggle('d-none');
+      btnKirim.classList.toggle('d-none');
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            myAlert.classList.toggle('d-none');
+            console.log('Success!', response);
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
