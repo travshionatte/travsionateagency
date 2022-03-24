@@ -765,7 +765,7 @@ header .search-bar-container label:hover{
 
   /* switch color */
   body.dark {
-    background: linear-gradient(to right, #ccffcc, #99ff99, #99ff66, #99ff33);   
+    background: linear-gradient(to right, #66ff99, #66ffcc, #66ffff, #99ffff);   
   }
   p.p{
     background: #fff;
